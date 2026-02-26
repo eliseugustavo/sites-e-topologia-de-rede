@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Google Sans", sans-serif;
+
+}
+    
+    body{
+    background-color: rgb(10, 12, 13);
+    color: white;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+    h1{
+    font-size: 40px;
+    color:aliceblue;
+    font-weight: bold;
+    /*bold = negrito*/ 
+} 
+
+        spam{
+            color: #22c55e;
+        }
+h2{
+    font-size: 15px;
+    color: aliceblue;
+    font-weight: bold;
+
+}
+
+    p{
+    color: #71771a;
+    margin: 10px;
+}
+
+    textarea{
+        resize: none;
+        max-width: 640px;
+        width: 100%;
+        padding: 16px;
+        border: 1px solid #27272a;
+        border-radius: 10px;
+        background: #141419;
+        color: white;
+        outline: none;
+    }
+
+    button{
+        width: 100%;
+        max-width: 640px;
+        background: #22c55e;
+        font-size: 16px;
+        font-weight: bold;
+        border-radius: 10px;
+        border: none;
+        padding: 15px;
+        cursor: pointer;
+        margin: 10px;
+        /*margin-top
+        botton
+        left
+        right
+        */
+
+    }
