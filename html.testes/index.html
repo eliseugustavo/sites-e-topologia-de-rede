@@ -1,47 +1,59 @@
 <!DOCTYPE html>
-    <!--versão mais atualizada do html-->
+<!--versão mais atualizada do html-->
 
 
-<html lang="pt-BR">    
-    <!--adiciona linguagem-->
+<html lang="pt-BR">
+<!--adiciona linguagem-->
 
 <head>
-    <meta charset="UTF-8"> <!--padrao de caracteres -->
+
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>devclub - gerador de IA</title>
     <link rel="stylesheet" href="styles.css">
+
 </head>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+<link
+    href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+    rel="stylesheet">
+
+<title>devclub - gerador de IA</title>
 
 <body>
     <h1>
         css gerador <spam> com IA</spam>
-    </h1> 
-   <!--h1 é o titulo mais importante
-    h2 p segundo mais
-    h3 o terceiro e assim em diante  --> 
-   <h2>
-        descreva oq você quer que a IA gere
-    </h2>
+    </h1>
 
-    
-     <textarea rows="3" class = "caixa-texto" placeholder="Ex: bola azul voando">
+
+    <p>
+        Descreva o que você imagina e veja a mágica acontecer
+    </p>
+
+
+    <textarea rows="3" class="caixa-texto" placeholder="Ex: bola azul voando">
 
      </textarea>
 
-    <button class="botao-gerar">
-        gerar codigo
+    <button class="botao-gerar"> gerar codigo</button>
 
-    </button>
-   <div class="container"> 
- <p class="bloco-codigo"></p>
 
-     <iframe class="resultado-codigo"></iframe>
+    <div class="resultado">
+
+        <div>
+            <h2>Código</h2>
+            <p class="bloco-codigo"></p>
+        </div>
+
+        <div>
+            <h2>Preview</h2>
+            <iframe class="resultado-codigo"></iframe>
+        </div>
+
 
     </div>
-    
+
+
 </body>
 <!--src aberviação de sorce-->
 <script src="scripts.js">

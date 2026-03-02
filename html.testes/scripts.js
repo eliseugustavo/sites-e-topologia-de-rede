@@ -15,7 +15,7 @@
 
 */
 let botao = document.querySelector(".botao-gerar")
-let chave = "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"
+let chave = "SUA CHAVE AQUI"
 let endereco = "https://api.groq.com/openai/v1/chat/completions"
 
 
@@ -56,8 +56,8 @@ async function gerarCodigo() {
 
     blocoCodigo.textContent = resultado
     resultadoCodigo.srcdoc = resultado
-    
-    
+
+
 
 }
 
