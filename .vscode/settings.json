@@ -1,0 +1,6 @@
+{
+    "dataworkspace.excludedProjects": [
+        "ELISEU/ELISEU.sqlproj",
+        "aula/aula.sqlproj"
+    ]
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastrar Livro</title>
+    <link rel="stylesheet" href="pagina2.css">
+
+</head>
+<title>Novo Livro</title>
+
+<body>
+
+    <h1>Cadastrar Novo Livro</h1>
+
+
+    <form class="formulário-nova-resenha">
+        <h2>Nova resenha</h2>
+
+        <div class="form-container">
+
+            <div class="coluna-dados">
+                <div class="campo-group">
+                    <label>Título:</label>
+                    <input type="text" id="titulo" placeholder="Ex: Minha opinião sobre O Auto da Compadecida">
+                </div>
+
+                <div class="campo-group">
+                    <label>Autor do livro:</label>
+                    <input type="text" id="autor" placeholder="Ex: Gregório de matos">
+                </div>
+
+                <div class="campo-group">
+                    <label>Ano:</label>
+                    <input type="number" id="ano" placeholder="Ex: 1990">
+                </div>
+
+                <div class="campo-group">
+                    <label>Nome do livro</label>
+                    <input type="text" id="nomeLivro" placeholder="Ex: O Auto da Compadecida">
+                </div>
+            </div>
+
+            <div class="coluna-resenha">
+                <label>Resenha:</label>
+                <textarea id="resenha" placeholder="Sua opnião..."></textarea>
+
+                <div class="button-container">
+                    <button class="btn-salvar" onclick="salvarNovoLivro()">Salvar na Estante</button>
+                    <br><br>
+                    <button class="btn-voltar" type="button" onclick="window.location.href='index.html'"> Voltar para a Biblioteca</button>
+                    
+                </div>
+            </div>
+        </div>
+    </form>
+
+    <script src="livro.js"></script>
+    <script src="biblioteca.js"> </script>
+</body>
+
+</html>

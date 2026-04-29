@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Buscar na Biblioteca</title>
+</head>
+<body>
+    <h1>Pesquisar na Estante</h1>
+
+    <div class="busca-container">
+        <input type="text" id="termoBusca" placeholder="Digite o que procura...">
+        
+        <select id="tipoFiltro">
+            <option value="autor">Buscar por Autor</option>
+            <option value="ano">Buscar por Ano</option>
+            <option value="titulo">Buscar por Título</option>
+        </select>
+
+        <button onclick="realizarBusca()">Pesquisar</button>
+    </div>
+
+    <div id="resultado">Os resultados aparecerão aqui...</div>
+
+    <br>
+    <a href="index.html">Voltar para a Home</a>
+
+    <script src="livro.js"></script>
+    <script src="biblioteca.js"></script>
+</body>
+</html>

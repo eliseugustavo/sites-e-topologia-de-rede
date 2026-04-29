@@ -24,35 +24,42 @@
     <form action="recebe.html" method="get">
 
         <div class="campo">
+
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome" placeholder="Digite seu nome" required>
+        <span id="erroNome" class="erro"></span>
         
         </div>
 
         <div class="campo">
+
         <label for="email">Email:</label>
         <input type="email" name="email" id="email"placeholder="Digite seu email" required>
-        
+        <span id="erroEmail" class="erro"></span>
+
         </div>
 
         <div class="campo">
         <label for="idade">Idade:</label>
         <input type="number" name="idade" id="idade" placeholder="Digite sua idade" required>
-        
+        <span id="erroIdade" class="erro"></span>
+
         </div>
         
         <div class="campo"> 
+
         <label for="senha">Senha:</label>
         <input type="text" name="senha" id="senha" placeholder="Digite sua senha" required>
-
+        <span id="erroSenha" class="erro"></span>   
+            
         </div>
 
-        <input type="submit" value="Enviar">
+        <input type="submit" id="btn" value="Enviar" disabled>
 
 
     </form>
 
-    
+    <script src="validação.js"></script>
 </body>
 
 

@@ -1,21 +1,6 @@
-/* 
-[x]botao
-[x]quando o botao é clicado
-[x]textarea
-[x]pegar o valor do textarea
-[x]enviar para a IA
-[x]peagr reposta da IA e colocar na tela
-[]estilizar a resposta da IA
 
-
-1°palavra chave:
-2°palavra chave: redbull
-3°palavra chave: devclub 
-4°palavra chave:
-
-*/
 let botao = document.querySelector(".botao-gerar")
-let chave = "SUA CHAVE AQUI"
+let chave = "sua chave aqui(api.groq.com)"
 let endereco = "https://api.groq.com/openai/v1/chat/completions"
 
 

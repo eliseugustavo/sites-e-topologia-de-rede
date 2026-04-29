@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca</title>
+</head>
+
+<body>
+
+    <h1>
+        Bem-vindo <samp>à Biblioteca</samp>
+    </h1>
+    
+    <p>Escolha uma opção para gerenciar os livros:</p>
+
+
+    <h2>
+        <div style="display: flex; flex-direction: column; align-items: flex-start;">
+            <button onclick="window.location.href='adicionar.html'"> Adicionar Livro</button>
+            <button onclick="listarLivros()"> Listar Livros</button>
+            <button onclick="window.location.href='busca.html'"> Pesquisar Livros</button>
+            <button onclick="sair()"> Sair</button>
+            <pre id="output" style="margin-top: 20px; font-family: monospace;"></pre>
+        </div>
+    </h2>
+
+
+</body>
+
+
+<script src="livro.js"></script>
+<script src="biblioteca.js"></script>
+
+</html>

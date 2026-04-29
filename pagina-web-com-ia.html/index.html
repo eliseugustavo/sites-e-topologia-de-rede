@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<!--versão mais atualizada do html-->
+<!-- a tag "DOCTYPE" é usada para declarar o tipo de documento HTML que está sendo usado. Neste caso, "html" indica que o documento é um arquivo HTML5, que é a versão mais recente do HTML e é amplamente suportada pelos navegadores modernos. -->
 
 
 <html lang="pt-BR">
@@ -12,32 +12,37 @@
     <link rel="stylesheet" href="styles.css">
 
 </head>
+
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link
     href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
     rel="stylesheet">
+ <!-- a tag "title" é usada para definir o título da página, que é exibido na aba do navegador. Neste caso, o título é "Gerador com IA", indicando que a página é um gerador de código CSS usando inteligência artificial.-->
+<title> Gerador com IA</title>
 
-<title>devclub - gerador de IA</title>
-
+<!-- a tag "body" é usada para conter todo o conteúdo visível da página, incluindo texto, imagens, botões e outros elementos. Tudo o que for colocado dentro da tag "body" será exibido na página web quando ela for carregada no navegador. -->
 <body>
+
+<!-- a tag "h1" é usada para criar um título principal, e o "spam" é usado para destacar uma parte do texto -->
     <h1>
         css gerador <spam> com IA</spam>
     </h1>
 
-
+<!-- o "p" adicona um parágrafo -->
     <p>
         Descreva o que você imagina e veja a mágica acontecer
     </p>
 
-
+<!-- a "textarea" é usada para criar uma área de texto onde os usuários podem digitar suas descrições, e o "button" é usado para criar um botão que, quando clicado, irá gerar o código CSS com base na descrição fornecida. -->
     <textarea rows="3" class="caixa-texto" placeholder="Ex: bola azul voando">
 
      </textarea>
 
+<!-- a classe "botao-gerar" é usada para estilizar o botão de geração, e o texto "gerar codigo" indica a ação que será realizada quando o botão for clicado, ou seja, gerar o código CSS com base na descrição fornecida na caixa de texto. -->
     <button class="botao-gerar"> gerar codigo</button>
 
-
+<!-- a "div" com a classe "resultado" é usada para conter os resultados gerados, incluindo o código CSS e a visualização do resultado. Dentro dessa "div", há duas seções: uma para exibir o código CSS gerado e outra para mostrar uma prévia visual do resultado usando um "iframe".-->
     <div class="resultado">
 
         <div>
@@ -46,7 +51,7 @@
         </div>
 
         <div>
-            <h2>Preview</h2>
+            <h3>Preview</h3>
             <iframe class="resultado-codigo"></iframe>
         </div>
 

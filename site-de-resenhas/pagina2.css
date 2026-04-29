@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #9FB6C6;
+    color: rgb(0, 0, 0);
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.form-container {
+    display: flex;
+    /* Isso coloca a coluna-dados e coluna-resenha lado a lado */
+    gap: 30px;
+    /* Espaço entre a esquerda e a direita */
+    align-items: stretch;
+    /* Faz a resenha ter a mesma altura da coluna da esquerda */
+    margin-top: 20px;
+}
+
+
+.coluna-dados {
+    flex: 1;
+    /* Ocupa uma parte do espaço */
+    display: flex;
+    flex-direction: column;
+    /* Garante que os campos fiquem um embaixo do outro */
+    gap: 15px;
+}
+
+
+.coluna-resenha {
+    flex: 1;
+    /* Ocupa a outra parte do espaço */
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    width: 100%;
+}
+
+form {
+    max-width: 800px;
+    width: 100%;
+    background-color: #4B4F8F;
+    padding: 30px;
+    border-radius: 15px;
+}
+
+textarea {
+    background-color: #d9d9d9;
+    border: none;
+    border-radius: 15px;
+    padding: 15px;
+    flex-grow: 1;
+    /* Faz a caixa de texto crescer para preencher a altura */
+    min-height: 300px;
+    /* Altura mínima para não ficar pequeno */
+    resize: none;
+    /* Remove aquele puxador no canto */
+}
+
+/* 6. Estilo dos Rótulos (Labels) */
+label {
+    display: block;
+    color: rgb(0, 0, 0);
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #7425DC;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 30px;
+}
+
+.formulário-nova-resenha {
+    max-width: 1000px;
+    width: 90%;
+    margin: 0 auto;
+    height: 500px;
+}
+
+.button-container {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 10px;
+}
+.btn-salvar, .btn-voltar {
+    padding: 10px 12px;
+    border: none;
+    border-radius: 10px;   
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s ease;     
+}
+
+.btn-salvar{
+    background-color: #7425DC;
+    color: white;
+}
+
+.btn-voltar {
+    background-color: white;
+    color: black;
+}
+

@@ -1,0 +1,18 @@
+{
+	"folders": [
+		{
+			"name": "snake-main",
+			"path": "../../../Downloads/snake-main"
+		},
+		{
+			"name": "Peste",
+			"path": "../.."
+		}
+	],
+	"settings": {
+		"dataworkspace.excludedProjects": [
+			"ELISEU/ELISEU.sqlproj",
+			"aula/aula.sqlproj"
+		]
+	}
+}
